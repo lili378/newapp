@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "title": "Earthy Denim Look",
+        "category": "earthy",
+        "image": "./img/download (4).jpg",
+        "tags": [
+            "long-skirts",
+            "layered-looks"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Grunge Layered Fit",
+        "category": "grunge",
+        "image": "./img/download (5).jpg",
+        "tags": [
+            "layered-looks"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Maximalist Floral Top",
+        "category": "maximalism",
+        "image": "./img/download (6).jpg",
+        "tags": [
+            "loose-tops"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Simple Neutral Skirt",
+        "category": "simple",
+        "image": "./img/download (7).jpg",
+        "tags": [
+            "long-skirts"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Earthy Layered Mix",
+        "category": "earthy",
+        "image": "./img/download (4).jpg",
+        "tags": [
+            "layered-looks"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Grunge Long Skirt Combo",
+        "category": "grunge",
+        "image": "./img/download (5).jpg",
+        "tags": [
+            "long-skirts"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Maximalist Statement",
+        "category": "maximalism",
+        "image": "./img/download (6).jpg",
+        "tags": [
+            "layered-looks"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Earthy Long Skirt Outfit",
+        "category": "earthy",
+        "image": "./img/download (4).jpg",
+        "tags": [
+            "long-skirts"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Grunge Cozy Layers",
+        "category": "grunge",
+        "image": "./img/download (5).jpg",
+        "tags": [
+            "layered-looks"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "Maximalist Boho Top",
+        "category": "maximalism",
+        "image": "./img/download (6).jpg",
+        "tags": [
+            "loose-tops"
+        ]
+    }
+]

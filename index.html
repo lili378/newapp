@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modest Outfit Inspiration</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description"
+        content="Helping Teen Christians find modest outfits that fit their aesthetic preferences.">
+    <meta name="keywords" content="aesthetic,outfits, modest, teen, christians">
+    <meta name="author" content="Etherlinda">
+
+    <meta property="og:title" content="Community Helper App">
+    <meta property="og:description" content="Find Modest Outfits that fit your style.">
+    <meta property="og:image" content="https://lili378.github.io/app/img/og.jpg">
+    <meta property="og:url" content="https://lili378.github.io/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Community Helper App">
+    <meta name="twitter:description" content="A simple way to express yourself while respecting yourself and religion.">
+    <meta name="twitter:image" content="https://lili378.github.io/app/img/twitter.jpg">
+
+    <link rel="icon" type="image/png" sizes="64x64" href="./favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resize.png">
+
+
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="brand">
+            <div class="logo">✝️</div>
+            <h1>Modest Muse</h1>
+        </div>
+
+        <nav class="filters">
+            <h4>Aesthetics</h4>
+            <button class="filter-btn active" data-filter="all">Home</button>
+            <button class="filter-btn" data-filter="earthy">Earthy</button>
+            <button class="filter-btn" data-filter="grunge">Grunge</button>
+            <button class="filter-btn" data-filter="maximalism">Maximalism</button>
+            <button class="filter-btn" data-filter="simple">Simple</button>
+            <button id="favorites-btn" class="filter-btn" data-filter="favorites">❤️ Favorites</button>
+
+            <hr />
+
+            <h4>Modesty Tags</h4>
+            <button class="tag-btn" data-tag="long-skirts">Long Skirts</button>
+            <button class="tag-btn" data-tag="loose-tops">Loose Tops</button>
+            <button class="tag-btn" data-tag="layered-looks">Layered Looks</button>
+        </nav>
+    </aside>
+
+    <header class="topbar">
+        <div class="search-wrap">
+            <input id="searchInput" placeholder="Search outfits or tags..." />
+        </div>
+        <div class="top-actions">
+            <button id="all-btn" class="small">All</button>
+        </div>
+    </header>
+
+    <main class="content">
+        <!-- View title / controls -->
+        <section class="view-header">
+            <h2 id="view-title">All Outfits</h2>
+            <div id="view-sub" class="view-sub"></div>
+        </section>
+
+        <!-- Masonry gallery -->
+        <section id="gallery" class="gallery" aria-live="polite"></section>
+
+        <!-- Empty / fallback -->
+        <div id="emptyState" class="empty hidden">
+            <p>No outfits found. Try another filter.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
